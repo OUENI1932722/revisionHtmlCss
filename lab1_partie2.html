@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" style="height:100%">
+    <head>
+    </head>
+    <body style="display:flex; flex-direction:column; height:100%; align-items:stretch; background-image:url('background.jpg'); background-size: cover;">
+    <div id="Header" style="flex-grow:1; background-image: url('background.jpg'); background-size:cover;"><a href="https://enligne.cegepjonquiere.ca/ColNet/login.asp">Connexion</a> | <a href="lab1_partie1.html">Partie 1</a></div>
+        <div id="Body" style="display:flex; flex-direction:row; flex-grow:3">
+            <div style="flex-grow:1; display:flex; flex-direction:column;">
+                <form method="POST">
+                    <table>
+                    <tr>
+                        <td><label for="Prenom">Prénom: </label></td>
+                        <td><input type="text" name="Prenom" id="Prenom"></td>
+                        <td><label for="Nom">Nom: </label></td>
+                        <td><input type="text" name="Nom" id="Nom"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Naissance">Date de naissance: </label></td>
+                        <td><input type="date" name="Naissance" id="Naissance"></td>
+                        <td><label for="Courriel">Courriel: </label></td>
+                        <td><input type="email" name="Courriel" id="Courriel"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Telephone">Téléphone: </label></td>
+                        <td><input type="tel" name="Telephone" id="Telephone"></td>
+                        <td><label for="Adresse">Adresse de livraison: </label></td>
+                        <td><input type="text" name="Adresse" id="Adresse"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="choix1">Choix 1:</label></td>
+                        <td>
+                            <select id="choix1">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </td>
+                        <td><label>Choix 2:</label></td>
+                        <td><label for="choixa">A:</label>
+                        <input type="radio" name="choix2" id="choixa" value="a">
+                        <label for="choixb">B:</label>
+                        <input type="radio" name="choix2" id="choixb" value="b">
+                        <label for="choixc">C:</label>
+                        <input type="radio" name="choix2" id="choixc" value="c">
+                        <label for="choixd">D:</label>
+                        <input type="radio" name="choix2" id="choixd" value="d"></td>
+                    </tr>
+                    <tr>
+                    </select>
+                    <td><label for="choixe">E:</label>
+                    <input type="checkbox" name="choix3" id="choixe" value="e">
+                    <label for="choixf">F:</label>
+                    <input type="checkbox" name="choix3" id="choixf" value="f">
+                    <label for="choixg">G:</label>
+                    <input type="checkbox" name="choix3" id="choixg" value="g">
+                    <label for="choixh">H:</label>
+                    <input type="checkbox" name="choix3" id="choixh" value="h"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                    <input type="submit" value="Soumettre">
+                        </td>
+                    </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div id="Footer" style="flex-grow:1">
+            <div><span style="float:left;">Nicolas Ouellet-Duval</span><span style="float: bottom; margin-left:40%;">Technicien Github</span><span style="float:right;">oueni1932722</span></div>
+        </div>
+    </body>
+</html>
